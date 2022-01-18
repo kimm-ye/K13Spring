@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src/main/webapp/resources/bootstrap5.1.3/js/|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.bundle.js|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.bundle.min.js|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.esm.js|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.esm.min.js|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.js|src/main/webapp/resources/bootstrap5.1.3/js/bootstrap.min.js" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
