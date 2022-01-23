@@ -45,16 +45,12 @@
 	<li>
 		<a href="./form/servletRequest?id=kosmo&pw=1234" target="_blank">HttpServletRequest로 폼값받기</a>
 	</li>
-	
 	<li>
 		<a href="./form/requestParam.do?id=kosmo&pw=1234&name=홍길동&email=hong@gildong.com" target="_blank">requestParam 어노테이션으로 폼값받기</a>
 	</li>
-	
-	
 	<li>
 		<a href="./form/commandObjGet.do?id=kosmo&pw=1234&name=홍길동&email=hong@gildong.com" target="_blank">커맨드(Command)객체로 한번에 폼값받기</a>
 	</li>
-	
 	<li>
 		<a href="./form/gildong99/코스모" target="_blank">pathVariable 어노테이션으로 폼값받기</a>
 	</li>
@@ -93,13 +89,48 @@
 	<li>
 		<a href="./fileUpload/uploadPath.do" target="_blank">upload폴더의 물리적 경로 확인하기</a>
 	</li>
-	
 	<li>
 		<a href="./fileUpload/uploadForm.do" target="_blank">파일업로드 폼</a>
 	</li>
-	
 	<li>
 		<a href="./fileUpload/uploadList.do"target="_blank" >파일목록보기</a>
+	</li>
+	
+	
+	<h3>@Controller, @Service, @Repository 어노테이션</h3>
+	<h4>Auto scan으로 자동생성되는 빈</h4>
+	<li>
+		<a href="./service/myService.do" target="_blank">myService 바로가기</a>
+	</li>
+	<li>
+		<!-- resources 폴더에는 html 파일을 생성한 후 직접 실행할 수 있다. -->
+		<a href="./resources/lottoForm.html" target="_blank">Lotto 바로가기</a>
+	</li>
+	
+	
+	<h3>HTML / JSP 파일 사용하기</h3>
+	<!-- 
+	HTML파일은 webapp하위에서는 사용할 수 없다.
+	resources 폴더 하위에서만 사용할 수 있다.
+	
+	우리는 static을 별칭으로 지정했으므로 이것도 사용할 수 있다.
+	 -->
+	<li>
+		<a href="./notFound.html" target="_blank">html 파일 사용X</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="./resources/found.html" target="_blank">html 파일 사용O</a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="./static/found.html" target="_blank">별칭 사용O</a>
+	</li>
+	<!--  
+	webapp하위에서는 JSP파일은 사용할 수 있다. jsp이므로 스크립트렛이나
+	클래스 임포트 등도 모두 가능하다.
+	-->
+	<li>
+		<a href="./randomNum.jsp" target="_blank">jsp 파일 사용하기</a>
+	</li>
+	<li>
+		<a href="./htmlJspUsed/includeUse.do" target="_blank" >요청명 방식에서 파일 인클루드 하기</a>
 	</li>
 	
 </div>
